@@ -28,7 +28,7 @@
 .text:after {
     content: '';
     position: absolute;
-    right: -25px; bottom: -8px;
+    right: -23px; bottom: -8px;
     border: 10px solid transparent;
     border-left: 20px solid #0066cc;
     transform: rotate(25deg);
