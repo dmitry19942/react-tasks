@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/react-tasks/static/css/main.c1527238.css",
-    "main.js": "/react-tasks/static/js/main.5a0b3d48.js",
+    "main.css": "/react-tasks/static/css/main.2e83d68c.css",
+    "main.js": "/react-tasks/static/js/main.b7a8bd3e.js",
     "static/js/787.66cb4309.chunk.js": "/react-tasks/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/react-tasks/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/react-tasks/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/react-tasks/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "index.html": "/react-tasks/index.html",
     "static/media/checked.svg": "/react-tasks/static/media/checked.b75ca55e8759862b4083.svg",
-    "main.c1527238.css.map": "/react-tasks/static/css/main.c1527238.css.map",
-    "main.5a0b3d48.js.map": "/react-tasks/static/js/main.5a0b3d48.js.map",
+    "static/media/burger.svg": "/react-tasks/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.2e83d68c.css.map": "/react-tasks/static/css/main.2e83d68c.css.map",
+    "main.b7a8bd3e.js.map": "/react-tasks/static/js/main.b7a8bd3e.js.map",
     "787.66cb4309.chunk.js.map": "/react-tasks/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1527238.css",
-    "static/js/main.5a0b3d48.js"
+    "static/css/main.2e83d68c.css",
+    "static/js/main.b7a8bd3e.js"
   ]
 }
