@@ -1,4 +1,17 @@
 .select {
+    width: 165px;
+    height: 24px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    cursor: pointer;
 }
 
 .select:focus {
