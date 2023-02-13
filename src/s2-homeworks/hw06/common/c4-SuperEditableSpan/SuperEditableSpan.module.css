@@ -1,4 +1,8 @@
 .spanBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #0080FF;
 }
 
 .span {
