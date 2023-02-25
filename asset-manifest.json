@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-tasks/static/css/main.9442de22.css",
-    "main.js": "/react-tasks/static/js/main.816f1dc9.js",
+    "main.css": "/react-tasks/static/css/main.08b4334b.css",
+    "main.js": "/react-tasks/static/js/main.ae221571.js",
     "static/js/787.66cb4309.chunk.js": "/react-tasks/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/react-tasks/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/react-tasks/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
@@ -10,12 +10,12 @@
     "index.html": "/react-tasks/index.html",
     "static/media/checked.svg": "/react-tasks/static/media/checked.b75ca55e8759862b4083.svg",
     "static/media/burger.svg": "/react-tasks/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.9442de22.css.map": "/react-tasks/static/css/main.9442de22.css.map",
-    "main.816f1dc9.js.map": "/react-tasks/static/js/main.816f1dc9.js.map",
+    "main.08b4334b.css.map": "/react-tasks/static/css/main.08b4334b.css.map",
+    "main.ae221571.js.map": "/react-tasks/static/js/main.ae221571.js.map",
     "787.66cb4309.chunk.js.map": "/react-tasks/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9442de22.css",
-    "static/js/main.816f1dc9.js"
+    "static/css/main.08b4334b.css",
+    "static/js/main.ae221571.js"
   ]
 }
