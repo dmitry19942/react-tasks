@@ -5,6 +5,7 @@ import axios from 'axios'
 import SuperPagination from './common/c9-SuperPagination/SuperPagination'
 import {useSearchParams} from 'react-router-dom'
 import SuperSort from './common/c10-SuperSort/SuperSort'
+import {Loading} from "../hw10/Loading";
 
 /*
 * 1 - дописать SuperPagination
@@ -52,34 +53,44 @@ const HW15 = () => {
         getTechs(params)
             .then((res) => {
                 // делает студент
-
                 // сохранить пришедшие данные
-
-                //
+                if (res) {
+                    if (sort === '1tech') {
+                        setTechs((res.data.techs).sort((a, b) => a.tech.localeCompare(b.tech)))
+                    }
+                    else if (sort === '0tech') {
+                        setTechs((res.data.techs).sort((a, b) => b.tech.localeCompare(a.tech)))
+                    }
+                    else {
+                        setTechs(res.data.techs)
+                    }
+                    setTotalCount(res.data.totalCount)
+                }
+                setLoading(false)
             })
     }
 
     const onChangePagination = (newPage: number, newCount: number) => {
         // делает студент
 
-        // setPage(
-        // setCount(
+        setPage(newPage)
+        setCount(newCount)
 
-        // sendQuery(
-        // setSearchParams(
+        sendQuery({page: newPage, count: newCount, sort: sort})
+        setSearchParams({page, count, sort}.toString())
+        setLoading(true)
 
-        //
     }
 
     const onChangeSort = (newSort: string) => {
         // делает студент
 
-        // setSort(
-        // setPage(1) // при сортировке сбрасывать на 1 страницу
+        setSort(newSort)
+        setPage(1) // при сортировке сбрасывать на 1 страницу
 
-        // sendQuery(
-        // setSearchParams(
-
+        sendQuery({page: page, count: count, sort: newSort})
+        setSearchParams({sort})
+        setLoading(true)
         //
     }
 
@@ -107,7 +118,7 @@ const HW15 = () => {
             <div className={s2.hwTitle}>Homework #15</div>
 
             <div className={s2.hw}>
-                {idLoading && <div id={'hw15-loading'} className={s.loading}>Loading...</div>}
+                {idLoading && <div id={'hw15-loading'} className={s.loading}><Loading /></div>}
 
                 <SuperPagination
                     page={page}
@@ -117,13 +128,13 @@ const HW15 = () => {
                 />
 
                 <div className={s.rowHeader}>
-                    <div className={s.techHeader}>
-                        tech
+                    <div className={s.header}>
+                        Tech
                         <SuperSort sort={sort} value={'tech'} onChange={onChangeSort}/>
                     </div>
 
-                    <div className={s.developerHeader}>
-                        developer
+                    <div className={s.header}>
+                        Developer
                         <SuperSort sort={sort} value={'developer'} onChange={onChangeSort}/>
                     </div>
                 </div>

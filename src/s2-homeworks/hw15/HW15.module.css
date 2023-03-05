@@ -1,21 +1,33 @@
 .tech {
-    width: 50vw;
+    width: 300px;
 }
 
 .developer {
-
+    width: 300px;
 }
 
-.techHeader {
-    width: 50vw;
-}
-
-.developerHeader {
-
+.header {
+    width: 300px;
+    height: 36px;
+    background: #E5E5E5;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 }
 
 .row {
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 10px 15px 10px 15px;
 }
 
 .rowHeader {
@@ -23,5 +35,8 @@
 }
 
 .loading {
-
+    display: flex;
+    justify-content: initial;
+    padding-left: 250px;
+    padding-bottom: 20px;
 }
